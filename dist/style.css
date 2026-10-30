@@ -1,29 +1,55 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+/* Main page */
+body {
+    background-color: #160b2e;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
 }
 
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
+/* Heading */
+h1 {
+    color: #ff00ff;
+    text-shadow: 0 0 10px #ff00ff;
 }
 
-th, td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
+/* Textbox */
+input {
+    background-color: #251447;
+    color: white;
+    border: 2px solid #00ffff;
+    padding: 10px;
 }
 
-th {
-  background-color: #f2f2f2;
-  font-weight: bold;
+/* Buttons */
+button {
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
 }
 
-tbody tr:nth-child(even) {
-  background-color: #f9f9f9;
+/* Button hover */
+button:hover {
+    background-color: #ff66ff;
 }
 
-tbody tr:hover {
-  background-color: #e9e9e9;
+/* Task list */
+ol {
+    width: 400px;
+    padding-left: 40px;
+}
+
+/* Tasks */
+li {
+    background-color: #251447;
+    border: 1px solid #00ffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Remove buttons */
+.done-btn {
+    background-color: #ff0066;
+    margin-left: 10px;
 }
